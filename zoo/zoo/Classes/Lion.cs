@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace zoo.Classes
 {
-    class Lion
+    class Lion : Feline
     {
+        public override string tailLength { get; set; } = "medium";
+        public override string size { get; set; } = "large";
+
+        public override void Call()
+        {
+            Console.WriteLine("Lions roar!");
+        }
+
+        public override void Sleep()
+        {
+            Console.WriteLine("Lions sleep between 16 and 20 hours each day!");
+        }
     }
 }
