@@ -16,7 +16,7 @@ namespace zoo.Classes
         public abstract void Call();
         public virtual void Eat()
         {
-            Console.Write("This critter eats");
+            Console.Write("This critter eats ");
         }
     }
 }

@@ -10,7 +10,7 @@ namespace zoo.Classes
     {
         public abstract string tailLength { get; set; }
         public virtual string diet { get; set; } = "carnivorous";
-        public abstract string size { get; set; };
-
+        public abstract string size { get; set; }
+        public override int legs { get; set; } = 4;
     }
 }
