@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using zoo.Interfaces;
 
 namespace zoo.Classes
 {
-    public class Gorilla : Primates
+    public class Gorilla : Primates, IEat, IMature
     {
         public override bool hasTail { get; set; }
         public override void Eat()

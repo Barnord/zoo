@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using zoo.Interfaces;
 
 namespace zoo.Classes
 {
-    class Kangaroo : Marsupials
+    class Kangaroo : Marsupials, IEat, IMature
     {
         public override string diet { get; set; } = "herbivore";
         public override int legs { get; set; } = 2;

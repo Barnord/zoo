@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using zoo.Interfaces;
 
 namespace zoo.Classes
 {
-    class Lion : Feline
+    class Lion : Feline, IEat, IMature
     {
         public override string tailLength { get; set; } = "medium";
         public override string size { get; set; } = "large";
