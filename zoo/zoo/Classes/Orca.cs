@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using zoo.Interfaces;
 
 namespace zoo.Classes
 {
-    public class Orca : Cetaceans
+    public class Orca : Cetaceans, IEat, IMature
     {
         public override void Call()
         {
